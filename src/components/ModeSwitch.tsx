@@ -18,7 +18,7 @@ interface ModeSwitchProps {
 }
 
 export const ModeSwitch = ({
-  initialMode = "bitch",
+  initialMode = "jew",
   onChange,
   storageKey = "mode-switch",
   width = 168,
