@@ -1,0 +1,36 @@
+export const SocialBar = () => {
+  const socialLinks = [
+    {
+      src: "/telegram.png",
+      href: "#",
+      label: "Telegram"
+    },
+    {
+      src: "/dexscreener.png",
+      href: "#",
+      label: "Dexscreener"
+    },
+    {
+      src: "/X.png",
+      href: "#",
+      label: "X"
+    }
+  ];
+
+  return (
+    <div className="flex justify-center">
+      <div className="flex items-center gap-4 bg-white rounded-full px-6 py-2 border border-black shadow-lg scale-150">
+        {socialLinks.map((social, index) => (
+          <a
+            key={index}
+            href={social.href}
+            className="p-0 rounded-full transition-transform duration-300 hover:scale-105"
+            aria-label={social.label}
+          >
+            <img src={social.src} alt={social.label} className="w-9 h-9 rounded-full object-contain" />
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+};
