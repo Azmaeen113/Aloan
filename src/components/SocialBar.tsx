@@ -12,7 +12,7 @@ export const SocialBar = () => {
     },
     {
       src: "/X.png",
-      href: "#",
+      href: "https://x.com/a1loan9",
       label: "X"
     }
   ];
@@ -25,6 +25,7 @@ export const SocialBar = () => {
             key={index}
             href={social.href}
             className="p-0 rounded-full transition-transform duration-300 hover:scale-105"
+            target="_blank" rel="noopener noreferrer"
             aria-label={social.label}
           >
             <img src={social.src} alt={social.label} className="w-9 h-9 rounded-full object-contain" />
