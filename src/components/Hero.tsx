@@ -4,6 +4,7 @@ import { SocialBar } from "./SocialBar";
 import { WindowDialog } from "./WindowDialog";
 import ModeSwitch from "./ModeSwitch";
 import { InfoPanels } from "./InfoPanels";
+import TopLeftSlideshow from "./TopLeftSlideshow";
 // MoneyBills removed for clean background
 
 export const Hero = () => {
@@ -50,7 +51,7 @@ export const Hero = () => {
           <div 
             className="absolute inset-0 z-0 hidden lg:block bg-no-repeat bg-center bg-contain md:bg-[length:100%_100%]"
             style={{ 
-              backgroundImage: 'url("/Background%20image.png")'
+              backgroundImage: 'url("/Background%20image.jpg")'
             }}
           />
         </>
@@ -69,6 +70,9 @@ export const Hero = () => {
       <div className="absolute top-8 right-8 z-50 pointer-events-auto">
         <ModeSwitch onChange={(m) => setIsJewMode(m === "jew")} />
       </div>
+
+      {/* Top Left - Slideshow box (Jew Mode only) */}
+      {isJewMode && <TopLeftSlideshow />}
 
       {/* Fullscreen character layers (Jew Mode) */}
       {isJewMode && (
@@ -99,7 +103,7 @@ export const Hero = () => {
 
       {/* Bottom Elements (Jew Mode only) */}
       {isJewMode && (
-        <div className="absolute bottom-0 left-0 right-0 z-30">
+        <div className="absolute bottom-0 left-0 right-0 z-[80]">
           {/* Social Media Bar */}
           <div className="mb-0 relative -translate-y-2 md:-translate-y-3">
             <SocialBar />
