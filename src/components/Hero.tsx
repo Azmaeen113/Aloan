@@ -3,6 +3,7 @@ import { CharacterAnimation } from "./CharacterAnimation";
 import { SocialBar } from "./SocialBar";
 import { WindowDialog } from "./WindowDialog";
 import ModeSwitch from "./ModeSwitch";
+import { InfoPanels } from "./InfoPanels";
 // MoneyBills removed for clean background
 
 export const Hero = () => {
@@ -100,12 +101,17 @@ export const Hero = () => {
       {isJewMode && (
         <div className="absolute bottom-0 left-0 right-0 z-30">
           {/* Social Media Bar */}
-          <div className="mb-8">
+          <div className="mb-0 relative -translate-y-2 md:-translate-y-3">
             <SocialBar />
           </div>
           
+          {/* Info Panels between social bar and window */}
+          <div className="mb-0 flex justify-center">
+            <InfoPanels />
+          </div>
+
           {/* Windows Dialog */}
-          <div className="mb-8">
+          <div className="mb-0">
             <WindowDialog />
           </div>
         </div>
