@@ -40,12 +40,14 @@ export const Hero = () => {
       {/* Background image layer */}
       {isJewMode ? (
         <>
-          {/* Phone/Tablet background */}
-          <div 
-            className="absolute inset-0 z-0 bg-no-repeat bg-center bg-contain lg:hidden"
-            style={{ 
-              backgroundImage: 'url("/phone%20screen%20background%20for%20the%20jewmode.png")'
-            }}
+          {/* Mobile/Tablet background video */}
+          <video
+            className="absolute inset-0 z-0 w-full h-full object-cover lg:hidden"
+            src="/Surf%20(2).mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
           {/* Desktop background */}
           <div 
