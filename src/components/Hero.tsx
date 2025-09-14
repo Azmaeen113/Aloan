@@ -120,6 +120,21 @@ export const Hero = () => {
           <div className="mb-0">
             <WindowDialog />
           </div>
+
+          {/* Footer Text */}
+          <div className="mt-4 pb-4 flex justify-center">
+            <div 
+              className="text-center text-xs md:text-sm px-4 max-w-4xl"
+              style={{ fontFamily: '"Press Start 2P", system-ui, sans-serif' }}
+            >
+              <div className="text-black/70 mb-2">
+                © 2025 $ALOAN. No rights reserved.
+              </div>
+              <div className="text-black/60 text-[10px] md:text-xs leading-relaxed">
+                DISCLAIMER: None of the content on this website is financial advice. Every piece of information on this website is a work of satire. DYOR, don't be a retard.
+              </div>
+            </div>
+          </div>
         </div>
       )}
     </div>
