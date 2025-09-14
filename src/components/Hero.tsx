@@ -43,18 +43,20 @@ export const Hero = () => {
           {/* Mobile/Tablet background video */}
           <video
             className="absolute inset-0 z-0 w-full h-full object-cover lg:hidden"
-            src="/Surf%20(2).mp4"
+            src="/yes%20(2).mp4"
             autoPlay
             loop
             muted
             playsInline
           />
-          {/* Desktop background */}
-          <div 
-            className="absolute inset-0 z-0 hidden lg:block bg-no-repeat bg-center bg-contain md:bg-[length:100%_100%]"
-            style={{ 
-              backgroundImage: 'url("/Background%20image.jpg")'
-            }}
+          {/* Desktop background video */}
+          <video
+            className="absolute inset-0 z-0 w-full h-full object-cover hidden lg:block"
+            src="/yes%20(2).mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
           />
         </>
       ) : (
