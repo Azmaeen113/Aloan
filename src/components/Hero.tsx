@@ -43,7 +43,7 @@ export const Hero = () => {
           {/* Mobile/Tablet background video */}
           <video
             className="absolute inset-0 z-0 w-full h-full object-cover lg:hidden"
-            src="/yes%20(2).mp4"
+            src="/yyy.mp4"
             autoPlay
             loop
             muted
@@ -52,7 +52,7 @@ export const Hero = () => {
           {/* Desktop background video */}
           <video
             className="absolute inset-0 z-0 w-full h-full object-cover hidden lg:block"
-            src="/yes%20(2).mp4"
+            src="/yyy.mp4"
             autoPlay
             loop
             muted
