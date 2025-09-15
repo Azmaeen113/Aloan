@@ -123,21 +123,6 @@ export const Hero = () => {
             <WindowDialog />
           </div>
 
-          {/* Contract Address */}
-          <div className="mt-4 flex justify-center">
-            <div className="bg-white/90 border-2 border-black px-4 py-2 rounded-lg shadow-lg">
-              <div 
-                className="text-center text-xs md:text-sm"
-                style={{ fontFamily: '"Press Start 2P", system-ui, sans-serif' }}
-              >
-                <div className="text-black/80 mb-1">CONTRACT ADDRESS:</div>
-                <div className="text-black text-[8px] md:text-[10px] break-all">
-                  8oXvhQPFxN2iuUBfwyYmq1fYW8hXz12JhhM2SbCQpump
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Footer Text */}
           <div className="mt-4 pb-4 flex justify-center">
             <div 

@@ -43,7 +43,7 @@ export const WindowDialog = () => {
         {!isMinimized && (
           <div className="p-2 bg-[#c0c0c0]">
             <div className="text-[14px] sm:text-[16px] md:text-[18px] tracking-[0.08em] leading-tight text-black/80 text-center break-words whitespace-normal md:truncate" style={{ fontFamily: '"Press Start 2P", system-ui, sans-serif' }}>
-              6ogzHhzdQJ9Pgv6hZ2MNze7JrzBMAFyBBWUYp1Fhitx
+              8oXvhQPFxN2iuUBfwyYmq1fYW8hXz12JhhM2SbCQpump
             </div>
           </div>
         )}
