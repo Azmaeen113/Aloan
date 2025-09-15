@@ -7,8 +7,8 @@ export const SocialBar = () => {
     },
     {
       src: "/dexscreener.png",
-      href: "#",
-      label: "Dexscreener"
+      href: "https://pump.fun/coin/8oXvhQPFxN2iuUBfwyYmq1fYW8hXz12JhhM2SbCQpump",
+      label: "Pump.fun"
     },
     {
       src: "/X.png",
