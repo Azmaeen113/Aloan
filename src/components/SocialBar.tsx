@@ -1,14 +1,14 @@
 export const SocialBar = () => {
   const socialLinks = [
     {
-      src: "/telegram.png",
-      href: "#",
-      label: "Telegram"
+      src: "/pumpfun.png",
+      href: "https://pump.fun/coin/8oXvhQPFxN2iuUBfwyYmq1fYW8hXz12JhhM2SbCQpump",
+      label: "Pumpfun"
     },
     {
       src: "/dexscreener.png",
-      href: "https://pump.fun/coin/8oXvhQPFxN2iuUBfwyYmq1fYW8hXz12JhhM2SbCQpump",
-      label: "Pump.fun"
+      href: "#",
+      label: "Dexscreener"
     },
     {
       src: "/X.png",
